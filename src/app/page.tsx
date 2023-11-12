@@ -9,7 +9,7 @@ export default function Home() {
         <div className='flex justify-center items-center bg-gray-200 w-[50px] h-[50px]'>A</div>
         <div className='flex justify-center items-center bg-gray-400 w-[50px] h-[50px]'>B</div>
       </div>
-      <div className='w-full h-[100px] bg-red-200'>2</div>
+
       <div className='w-full h-[100px] bg-red-300'>
         <button className='w-[114px] h-[40px] bg-white rounded-[60px] text-[14px]'>Click Me!</button>
       </div>
