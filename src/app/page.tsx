@@ -28,18 +28,24 @@ export default function Home() {
       </div>
 
 
-      <section id="section1" className='flex items-center justify-center w-full h-[738px] bg-[#141C2C]'>
-        <Image className=''
-          src="/section1.jpg"
-          alt="section1"
-          width={500}
-          height={500}
-        />
+      <section id="section1" className='flex items-center justify-center w-full h-[738px] bg-[#141C2C] '>
+        <p className='text-white text-[30px]'>Add image and welcome to My Portfolio</p>
+        {/* <Image className='w-full h-full ' */}
+          {/* src="/preprofile.png" */}
+          {/* alt="section1" */}
+          {/* width={500} */}
+          {/* height={500} */}
+        {/* /> */}
+        
       </section>
 
-      <section id="section2" className='flex items-center justify-center w-full h-[738px] bg-white '>2</section>
+      <section id="section2" className='flex items-center justify-center w-full h-[738px] bg-white '>
+        <p className='text-[30px]'>Introduce Youself</p>
+        </section>
 
-      <section id="section3" className='flex items-center justify-center w-full h-[738px] bg-[#141C2C]'>3</section>
+      <section id="section3" className='flex items-center justify-center w-full h-[738px] bg-[#141C2C]'>
+        <p className='text-white text-[30px]'>My skill</p>
+        </section>
 
 
 
