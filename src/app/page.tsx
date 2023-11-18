@@ -28,7 +28,7 @@ export default function Home() {
       </div>
 
 
-      <section id="section1" className='flex items-center justify-center w-full h-[738px] bg-red-100'>
+      <section id="section1" className='flex items-center justify-center w-full h-[738px] bg-[#141C2C]'>
         <Image className=''
           src="/section1.jpg"
           alt="section1"
@@ -37,7 +37,7 @@ export default function Home() {
         />
       </section>
 
-      <section id="section2" className='flex items-center justify-center w-full h-[738px] bg-white'>2</section>
+      <section id="section2" className='flex items-center justify-center w-full h-[738px] bg-white '>2</section>
 
       <section id="section3" className='flex items-center justify-center w-full h-[738px] bg-[#141C2C]'>3</section>
 
