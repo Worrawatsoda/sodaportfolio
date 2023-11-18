@@ -28,7 +28,7 @@ export default function Home() {
       </div>
 
 
-      <section id="section1" className='flex items-center justify-center w-full h-[738px] bg-[#141C2C]'>
+      <section id="section1" className='flex items-center justify-center w-full h-[738px] bg-red-100'>
         <Image className=''
           src="/section1.jpg"
           alt="section1"
