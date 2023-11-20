@@ -28,14 +28,8 @@ export default function Home() {
       </div>
 
 
-      <section id="section1" className='flex items-center justify-center w-full h-[738px] bg-[#141C2C] '>
+      <section id="section1" className='flex items-center justify-center w-full h-[738px] bg-[#141C2C] bg-[url(/preprofile.png)] bg-cover '>
         <p className='text-white text-[30px]'>Add image and welcome to My Portfolio</p>
-        {/* <Image className='w-full h-full ' */}
-          {/* src="/preprofile.png" */}
-          {/* alt="section1" */}
-          {/* width={500} */}
-          {/* height={500} */}
-        {/* /> */}
         
       </section>
 
