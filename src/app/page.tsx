@@ -5,21 +5,21 @@ export default function Home() {
     <main className="min-h-screen scroll-smooth">
 
       <div className='flex fixed items-center justify-between p-[30px]  w-full h-[42px] bg-white z-40'>
-        <div className='p-[30px] cursor-pointer font-bold italic text-[28px] z-50'>WORRAWAT</div>
+        <div className='p-[30px] cursor-pointer font-bold italic text-[28px] z-50 text-black'>WORRAWAT</div>
         <div className='z-50 '>
           <ul className='list-none'>
             <li className='inline-block p-[20px] transition-all hover:bg-grey '>
-              <a className='transition-all hover:bg-grey' href="#section1">
+              <a className='transition-all hover:bg-grey text-black' href="#section1">
                 Home
               </a>
             </li>
             <li className='inline-block p-[20px] transition-all hover:bg-grey '>
-              <a className='transition-all hover:bg-grey' href="#section2">
+              <a className='transition-all hover:bg-grey text-black' href="#section2">
                 About
               </a>
             </li>
             <li className='inline-block p-[20px] transition-all hover:bg-grey '>
-              <a className='transition-all hover:bg-grey' href="#section3">
+              <a className='transition-all hover:bg-grey text-black' href="#section3">
                 Section 3
               </a>
             </li>
