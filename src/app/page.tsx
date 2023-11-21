@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <main className="min-h-screen scroll-smooth">
 
-      <div className='flex fixed items-center justify-between p-[30px]  w-full h-[42px] bg-white '>
-        <div className='p-[30px] cursor-pointer font-bold italic text-[28px]'>WORRAWAT</div>
-        <div className=' '>
+      <div className='flex fixed items-center justify-between p-[30px]  w-full h-[42px] bg-white z-40'>
+        <div className='p-[30px] cursor-pointer font-bold italic text-[28px] z-50'>WORRAWAT</div>
+        <div className='z-50 '>
           <ul className='list-none'>
             <li className='inline-block p-[20px] transition-all hover:bg-grey '>
               <a className='transition-all hover:bg-grey' href="#section1">
