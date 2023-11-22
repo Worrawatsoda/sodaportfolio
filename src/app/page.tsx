@@ -52,10 +52,15 @@ export default function Home() {
 
       <section id="section3" className='flex items-center justify-center w-full h-[738px] bg-primary'>
         
-        <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px]' onClick={(e)=>handleMySkillButton("A")}> A </button>
+      <div className='flex  items-center   p-[30px]  w-full h-[42px] bg-primary '>
+        
+        <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px] ' onClick={(e)=>handleMySkillButton("A")}> A </button>
         <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px]' onClick={(e)=>handleMySkillButton("B")}> B </button>
-        {mySkillButton == "A"? (<><div className='w-[500px] h-[500px] bg-red-300'><p></p></div></>):(<></>)}
-        {mySkillButton == "B"? (<><div className='w-[50px] h-[50px] bg-red-500'></div></>):(<></>)}
+        {mySkillButton == "A"? (<><div className=''><p></p></div></>):(<></>)}
+        {mySkillButton == "B"? (<><div className=''></div></>):(<></>)}
+        
+      </div>
+       
       </section>
 
 
