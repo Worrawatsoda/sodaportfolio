@@ -54,12 +54,12 @@ export default function Home() {
           </div>
           
             <div className='grid grid-cols-3  grid-rows-2'>
-            <Image
+            {/* <Image
           src="/profile.png"
           width={2000}
           height={2000}
           alt="Picture of the author"
-            />
+            /> */}
             </div>
         </div>
       </section>
