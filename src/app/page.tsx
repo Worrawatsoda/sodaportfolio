@@ -91,7 +91,7 @@ export default function Home() {
         </>) : (<></>)}
         {mySkillButton == "B" ? (<>
         <div className='bg-green-200 w-full h-[500px]'>
-
+            <p></p>
         </div>
         </>) : (<></>)}
 
