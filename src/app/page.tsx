@@ -47,35 +47,58 @@ export default function Home() {
       </section>
 
       <section id="section2" className='flex  items-center w-full h-[738px] bg-secondary '>
-        <div className='grid grid-cols-3  grid-rows-2 '>
-          <div className=' '>
-              <h1 className='  font-semibold text-[24px] italic '>Hello!<br /> I’m soda<br /> i need to be a  Software Developer</h1>
-              <p className='  text-[16px] text-grey '><br />I’m a person who is going to develop and maintain software solutions, utilizing programming languages and engineering principles throughout the development process.</p>
+        <div className='flex items-center justify-center bg-red-400 w-full h-[500px] '>
+          <div className='bg-gray-400 w-[500px] h-[500px] '>
+            <p>sdasdsadasdasdsa</p>
           </div>
-          
-            <div className='grid grid-cols-3  grid-rows-2'>
-            {/* <Image
-          src="/profile.png"
-          width={2000}
-          height={2000}
-          alt="Picture of the author"
-            /> */}
-            </div>
+          <div className='flex items-center justify-center w-[500px] h-[500px] bg-gray-300 overflow-hidden ml-[50px]'>
+            <Image className='bg-gray-400 '
+              src="/profile.png"
+              width={333}
+              height={333}
+
+              alt="Picture of the author"
+            />
+          </div>
         </div>
       </section>
 
-      <section id="section3" className='flex items-center justify-center w-full h-[738px] bg-primary'>
+      <section id="section3" className=' w-full min-h-[738px] bg-primary pt-[100px] p-[30px]'>
 
-        <div className='flex  items-center   p-[30px]  w-full h-[42px] bg-primary '>
 
-          <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px] ' onClick={(e) => handleMySkillButton("A")}> A </button>
-          <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px]' onClick={(e) => handleMySkillButton("B")}> B </button>
-          {mySkillButton == "A" ? (<><div className=''><p></p></div></>) : (<></>)}
-          {mySkillButton == "B" ? (<><div className=''></div></>) : (<></>)}
+        <div className='flex justify-center  h-[80px] w-full'>
+        {mySkillButton == "A" ? (<>
+          <button className='text-primary w-[114px] h-[40px] bg-activebutton m-[10px] ' onClick={(e) => handleMySkillButton("A")}> A </button>
+        
+        </>) : 
+        (<>
+         <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px] ' onClick={(e) => handleMySkillButton("A")}> A </button>
+        </>)}
+        {mySkillButton == "B" ? (<>
+          <button className='text-primary w-[114px] h-[40px] bg-activebutton m-[10px] ' onClick={(e) => handleMySkillButton("B")}> B </button>
+        
+        </>) : 
+        (<>
+         <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px] ' onClick={(e) => handleMySkillButton("B")}> B </button>
+        </>)}
+          {/* <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px] ' onClick={(e) => handleMySkillButton("A")}> A </button> */}
+          {/* <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px]' onClick={(e) => handleMySkillButton("B")}> B </button> */}
+        </div>
+        {mySkillButton == "A" ? (<>
+          <div className='bg-yellow-200 w-full h-[700px]'>
+            <p></p>
+          </div>
+        </>) : (<></>)}
+        {mySkillButton == "B" ? (<>
+        <div className='bg-green-200 w-full h-[500px]'>
 
         </div>
+        </>) : (<></>)}
+
+
 
       </section>
+
 
 
 
