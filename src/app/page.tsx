@@ -51,8 +51,8 @@ export default function Home() {
           <div className='bg-gray-400 w-[500px] h-[500px] pl-20 pt-20 '>
             <h1 className='text-black font-semibold italic text-[23px]'>Hello!<br /> I’m soda<br /> I Need To Be A  Software Developer</h1>
             <p className='text-grey-300 text-[18px]'><br />I’m a person who is going to develop and maintain software solutions, utilizing programming languages and engineering principles throughout the development process.</p>
-            <div className='bg-green-400 h-[50px] w-[400px] mt-[85px] '>
-
+            <div className='bg-green-400 h-[50px] w-[400px] mt-[85px]   '>
+              <p>Follow</p>
             </div>
           </div>
 
