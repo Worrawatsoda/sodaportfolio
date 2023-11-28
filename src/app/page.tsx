@@ -47,11 +47,16 @@ export default function Home() {
       </section>
 
       <section id="section2" className='flex  items-center w-full h-[738px] bg-secondary '>
-        <div className='flex items-center justify-center bg-red-400 w-full h-[500px] '>
-          <div className='bg-gray-400 w-[500px] h-[500px] '>
-            <p>sdasdsadasdasdsa</p>
+        <div className='flex items-center justify-center bg-red-400 w-full h-[738px] '>
+          <div className='bg-gray-400 w-[500px] h-[500px] pl-20 pt-20 '>
+            <h1 className='text-black font-semibold italic text-[23px]'>Hello!<br /> I’m soda<br /> I Need To Be A  Software Developer</h1>
+            <p className='text-grey-300 text-[18px]'><br />I’m a person who is going to develop and maintain software solutions, utilizing programming languages and engineering principles throughout the development process.</p>
+            <div className='bg-green-400 h-[50px] w-[400px] mt-[85px] '>
+
+            </div>
           </div>
-          <div className='flex items-center justify-center w-[500px] h-[500px] bg-gray-300 overflow-hidden ml-[50px]'>
+
+          <div className='flex items-center justify-center w-[500px] h-[500px] bg-gray-300 overflow-hidden ml-[20px]'>
             <Image className='bg-gray-400 '
               src="/profile.png"
               width={333}
