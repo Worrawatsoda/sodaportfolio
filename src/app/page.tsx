@@ -56,15 +56,15 @@ export default function Home() {
               <div className='bg-black h-[5px] w-[25px] ml-[15px] mt-[31px] '></div>
               <Image className='ml-[10px]'
               src="/ig icon.png"
-              width={45}
-              height={45}
+              width={40}
+              height={35}
 
               alt="Picture of the author"
             />
               <Image className=' mb-[2px]'
               src="/fb icon.png"
-              width={45}
-              height={45}
+              width={50}
+              height={70}
 
               alt="Picture of the author"
             />
