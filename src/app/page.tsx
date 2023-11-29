@@ -47,17 +47,33 @@ export default function Home() {
       </section>
 
       <section id="section2" className='flex  items-center w-full h-[738px] bg-secondary '>
-        <div className='flex items-center justify-center bg-red-400 w-full h-[738px] '>
-          <div className='bg-gray-400 w-[500px] h-[500px] pl-20 pt-20 '>
+        <div className='flex items-center justify-center  w-full h-[738px] '>
+          <div className=' w-[500px] h-[500px] pl-20 pt-20 '>
             <h1 className='text-black font-semibold italic text-[23px]'>Hello!<br /> I’m soda<br /> I Need To Be A  Software Developer</h1>
             <p className='text-grey-300 text-[18px]'><br />I’m a person who is going to develop and maintain software solutions, utilizing programming languages and engineering principles throughout the development process.</p>
-            <div className='bg-green-400 h-[50px] w-[400px] mt-[85px]   '>
-              <p>Follow</p>
+            <div className='flex  h-[50px] w-[400px] mt-[85px]   '>
+              <p className=' text-[14px]'><br />Follow Me </p>
+              <div className='bg-black h-[5px] w-[25px] ml-[15px] mt-[31px] '></div>
+              <Image className='ml-[10px]'
+              src="/ig icon.png"
+              width={45}
+              height={45}
+
+              alt="Picture of the author"
+            />
+              <Image className=' mb-[2px]'
+              src="/fb icon.png"
+              width={45}
+              height={45}
+
+              alt="Picture of the author"
+            />
+             
             </div>
           </div>
 
-          <div className='flex items-center justify-center w-[500px] h-[500px] bg-gray-300 overflow-hidden ml-[20px]'>
-            <Image className='bg-gray-400 '
+          <div className='flex items-center justify-center w-[500px] h-[500px] overflow-hidden ml-[20px]'>
+          <Image className='  '
               src="/profile.png"
               width={333}
               height={333}
