@@ -55,25 +55,25 @@ export default function Home() {
               <p className=' text-[14px]'><br />Follow Me </p>
               <div className='bg-black h-[5px] w-[25px] ml-[15px] mt-[31px] '></div>
               <Image className='ml-[10px]'
-              src="/ig icon.png"
-              width={40}
-              height={35}
+                src="/ig icon.png"
+                width={40}
+                height={35}
 
-              alt="Picture of the author"
-            />
+                alt="Picture of the author"
+              />
               <Image className=' mb-[2px]'
-              src="/fb icon.png"
-              width={50}
-              height={70}
+                src="/fb icon.png"
+                width={40}
+                height={60}
 
-              alt="Picture of the author"
-            />
-             
+                alt="Picture of the author"
+              />
+
             </div>
           </div>
 
           <div className='flex items-center justify-center w-[500px] h-[500px] overflow-hidden ml-[20px]'>
-          <Image className='  '
+            <Image className='  '
               src="/profile.png"
               width={333}
               height={333}
@@ -88,39 +88,131 @@ export default function Home() {
 
 
         <div className='flex justify-center  h-[80px] w-full'>
-        {mySkillButton == "A" ? (<>
-          <button className='text-primary w-[114px] h-[40px] bg-activebutton m-[10px] ' onClick={(e) => handleMySkillButton("A")}> A </button>
-        
-        </>) : 
-        (<>
-         <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px] ' onClick={(e) => handleMySkillButton("A")}> A </button>
-        </>)}
-        {mySkillButton == "B" ? (<>
-          <button className='text-primary w-[114px] h-[40px] bg-activebutton m-[10px] ' onClick={(e) => handleMySkillButton("B")}> B </button>
-        
-        </>) : 
-        (<>
-         <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px] ' onClick={(e) => handleMySkillButton("B")}> B </button>
-        </>)}
-          {/* <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px] ' onClick={(e) => handleMySkillButton("A")}> A </button> */}
-          {/* <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px]' onClick={(e) => handleMySkillButton("B")}> B </button> */}
+          {mySkillButton == "A" ? (<>
+            <button className='text-primary w-[114px] h-[40px] bg-activebutton m-[10px] ' onClick={(e) => handleMySkillButton("A")}> A </button>
+
+          </>) :
+            (<>
+              <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px] ' onClick={(e) => handleMySkillButton("A")}> A </button>
+            </>)}
+          {mySkillButton == "B" ? (<>
+            <button className='text-primary w-[114px] h-[40px] bg-activebutton m-[10px] ' onClick={(e) => handleMySkillButton("B")}> B </button>
+
+          </>) :
+            (<>
+              <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px] ' onClick={(e) => handleMySkillButton("B")}> B </button>
+            </>)}
+
         </div>
         {mySkillButton == "A" ? (<>
-          <div className='bg-yellow-200 w-full h-[700px]'>
-            <p></p>
+          <div className='flex items-center justify-center  w-full h-[350px]   '>
+            <div className='flex  w-[500px] h-[120px] -mt-[150px] '>
+              <Image className=' '
+                src="/pyth icon.png"
+                width={120}
+                height={120}
+
+                alt="Picture of the author"
+              />
+              <h1 className='text-secondary text-[22px] font-semibold ml-5'>PYTHON
+                <p className=' text-grey text-[16px] font-normal'>
+                  <br />Now, I am able to write code for Data Visualization, Data Preparation, and Machine Learning using Python, along with basic Python coding skills.
+                </p>
+              </h1>
+
+            </div>
+
+            <div className='flex  w-[500px] h-[120px] -mt-[150px] ml-20 '>
+              <Image className='-ml-[80px] '
+                src="/HTML icon.png"
+                width={240}
+                height={120}
+
+                alt="Picture of the author"
+              />
+              <h1 className='text-secondary text-[22px] font-semibold ml-5'>HTML
+                <p className=' text-grey text-[16px] font-normal'>
+                  <br />I am able to write HTML code to create a basic website and decorate it with CSS to make it beautiful and usable.
+                </p>
+              </h1>
+            </div>
           </div>
+          <div className='flex items-center justify-center  w-full h-[350px] -mt-10 '>
+            <div className='flex  w-[500px] h-[120px] -mt-[300px] '>
+              <Image className=' '
+                src="/pyth icon.png"
+                width={120}
+                height={120}
+
+                alt="Picture of the author"
+              />
+              <h1 className='text-secondary text-[22px] font-semibold ml-5'>PYTHON
+                <p className=' text-grey text-[16px] font-normal'>
+                  <br />Now, I am able to write code for Data Visualization, Data Preparation, and Machine Learning using Python, along with basic Python coding skills.
+                </p>
+              </h1>
+
+            </div>
+
+            <div className='flex  w-[500px] h-[120px] bg-red -mt-[300px] ml-20 '>
+              <Image className=' '
+                src="/pyth icon.png"
+                width={120}
+                height={120}
+
+                alt="Picture of the author"
+              />
+              <h1 className='text-secondary text-[22px] font-semibold ml-5'>PYTHON
+                <p className=' text-grey text-[16px] font-normal'>
+                  <br />Now, I am able to write code for Data Visualization, Data Preparation, and Machine Learning using Python, along with basic Python coding skills.
+                </p>
+              </h1>
+            </div>
+          </div>
+
         </>) : (<></>)}
         {mySkillButton == "B" ? (<>
-        <div className='bg-green-200 w-full h-[500px]'>
-            <p></p>
-        </div>
+          <div className='flex items-center justify-center  w-full h-[400px]'>
+            <div className='flex w-[560x] h-[400px] '>
+              <Image className='-ml-20  '
+                src="/cer img.png"
+                width={560}
+                height={320}
+
+                alt="Picture of the author"
+              />
+              <p className='pl-10 pt-10 text-white text-[16px]'> dasdasdddddddddddddddddddddddddddddddddddddddd</p>
+            </div>
+
+          </div>
+          <div className='flex items-center justify-center  w-full h-[400px] mt-20'>
+            <div className='flex w-[560x] h-[400px] '>
+              <div className='w-[560px] h-[400px] pl-20'>
+                <p className='pr-20 pt-10 text-white text-[16px]'> dasdasdddddddddddddddddddddddddddddddddddddddd</p>
+              </div>
+              <div className='pl-10'>
+                <Image className='  '
+
+                  src="/cer img.png"
+                  width={560}
+                  height={320}
+
+                  alt="Picture of the author"
+                />
+              </div>
+            </div>
+
+          </div>
         </>) : (<></>)}
 
 
 
       </section>
 
-
+      <footer className='flex items-center justify-center w-full h-[200px] bg-black '>
+          <p className='text-secondary text-[26px] font-extralight'>Copy Right 2023 © By Soda</p>
+          
+      </footer>
 
 
     </main>
