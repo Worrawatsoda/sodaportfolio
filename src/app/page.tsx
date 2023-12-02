@@ -51,25 +51,30 @@ export default function Home() {
           <div className=' w-[500px] h-[500px] pl-20 pt-20 '>
             <h1 className='text-black font-semibold italic text-[23px]'>Hello!<br /> I’m soda<br /> I Need To Be A  Software Developer</h1>
             <p className='text-grey-300 text-[18px]'><br />I’m a person who is going to develop and maintain software solutions, utilizing programming languages and engineering principles throughout the development process.</p>
-            <div className='flex  h-[50px] w-[400px] mt-[85px]   '>
+            <div className='flex items-center  h-[50px] w-[400px] mt-[85px]  '>
               <p className=' text-[14px]'><br />Follow Me </p>
-              <div className='bg-black h-[5px] w-[25px] ml-[15px] mt-[31px] '></div>
-              <Image className='ml-[10px]'
-                src="/ig icon.png"
-                width={40}
-                height={35}
+              <div className='bg-black h-[5px] w-[25px] ml-[15px] mt-[31px] mr-[10px] '></div>
+              <div className='w-[40] h-[40] '>
+                <Image className=''
+                  src="/ig icon.png"
+                  width={40}
+                  height={40}
 
-                alt="Picture of the author"
-              />
-              <Image className=' mb-[2px]'
-                src="/fb icon.png"
-                width={40}
-                height={60}
+                  alt="Picture of the author"
+                />
+              </div>
+              <div className='w-[45px] h-[45px] '>
+                <Image className=' mb-[2px]'
+                  src="/fb icon.png"
+                  width={45}
+                  height={45}
 
-                alt="Picture of the author"
-              />
+                  alt="Picture of the author"
+                />
+              </div>
 
             </div>
+
           </div>
 
           <div className='flex items-center justify-center w-[500px] h-[500px] overflow-hidden ml-[20px]'>
@@ -89,22 +94,23 @@ export default function Home() {
 
         <div className='flex justify-center  h-[80px] w-full'>
           {mySkillButton == "A" ? (<>
-            <button className='text-primary w-[114px] h-[40px] bg-activebutton m-[10px] ' onClick={(e) => handleMySkillButton("A")}> A </button>
+            <button className='text-primary w-[114px] h-[40px] bg-activebutton m-[10px] rounded-full ' onClick={(e) => handleMySkillButton("A")}> My Skill</button>
 
           </>) :
             (<>
-              <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px] ' onClick={(e) => handleMySkillButton("A")}> A </button>
+              <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px] rounded-full ' onClick={(e) => handleMySkillButton("A")}> My Skill </button>
             </>)}
           {mySkillButton == "B" ? (<>
-            <button className='text-primary w-[114px] h-[40px] bg-activebutton m-[10px] ' onClick={(e) => handleMySkillButton("B")}> B </button>
+            <button className='text-primary w-[114px] h-[40px] bg-activebutton m-[10px] rounded-full ' onClick={(e) => handleMySkillButton("B")}> Education </button>
 
           </>) :
             (<>
-              <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px] ' onClick={(e) => handleMySkillButton("B")}> B </button>
+              <button className='text-primary w-[114px] h-[40px] bg-secondary m-[10px] rounded-full ' onClick={(e) => handleMySkillButton("B")}> Education </button>
             </>)}
 
         </div>
         {mySkillButton == "A" ? (<>
+
           <div className='flex items-center justify-center  w-full h-[350px]   '>
             <div className='flex  w-[500px] h-[120px] -mt-[150px] '>
               <Image className=' '
@@ -181,14 +187,14 @@ export default function Home() {
 
                 alt="Picture of the author"
               />
-              <p className='pl-10 pt-10 text-white text-[16px]'> dasdasdddddddddddddddddddddddddddddddddddddddd</p>
+              <p className='pl-10 pt-10 text-white text-[16px] '> dasdasdddddddddddddddddddddddddddddddddddddddd</p>
             </div>
 
           </div>
           <div className='flex items-center justify-center  w-full h-[400px] mt-20'>
             <div className='flex w-[560x] h-[400px] '>
               <div className='w-[560px] h-[400px] pl-20'>
-                <p className='pr-20 pt-10 text-white text-[16px]'> dasdasdddddddddddddddddddddddddddddddddddddddd</p>
+                <p className='pr-20 pt-10 text-white text-[16px]'> dasddddddddddddddddddddddddddddddd</p>
               </div>
               <div className='pl-10'>
                 <Image className='  '
@@ -210,8 +216,53 @@ export default function Home() {
       </section>
 
       <footer className='flex items-center justify-center w-full h-[200px] bg-black '>
-          <p className='text-secondary text-[26px] font-extralight'>Copy Right 2023 © By Soda</p>
-          
+        {/* <p className='text-secondary text-[26px] font-extralight bg-green-200'>Copy Right 2023 © By Soda</p> */}
+        {/* <div className='flex items-center  h-[50px] w-[400px] mt-[85px] bg-red-200 '>
+          <div className='w-[50px] h-[50px]  '>
+            <Image className=''
+              src="/footerig icon.png"
+              width={50}
+              height={50}
+
+              alt="Picture of the author"
+            />
+          </div>
+          <div className='w-[50px] h-[50px] '>
+            <Image className=' mb-[2px]'
+              src="/footerfb icon.png"
+              width={50}
+              height={50}
+
+              alt="Picture of the author"
+            />
+          </div>
+
+        </div> */}
+
+        <div className='flex flex-col items-center justify-center w-[500px] h-[150px] '> 
+          <p className='text-secondary text-[24px] font-extralight '>Copy Right 2023 © By Soda</p>
+           <div className='flex items-center justify-center h-[50px] w-[400px] mt-[20px]   '>
+          <div className='w-[50px] h-[50px] mr-[20px] '>
+            <Image className=''
+              src="/footerig icon.png"
+              width={50}
+              height={50}
+
+              alt="Picture of the author"
+            />
+          </div>
+          <a href="https://www.facebook.com/profile.php?id=100011950513306&locale=th_TH" target="blank" className='w-[50px] h-[50px] '>
+            <Image className=' mb-[2px]'
+              src="/footerfb icon.png"
+              width={50}
+              height={50}
+
+              alt="Picture of the author"
+            />
+          </a>
+
+        </div>
+        </div>
       </footer>
 
 
