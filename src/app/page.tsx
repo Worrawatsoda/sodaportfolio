@@ -46,9 +46,9 @@ export default function Home() {
 
       </section>
 
-      <section id="section2" className='flex  items-center w-full h-[738px] bg-secondary '>
-        <div className='flex items-center justify-center  w-full h-[738px] '>
-          <div className=' w-[500px] h-[500px] pl-20 pt-20 '>
+      <section id="section2" className='flex  items-center w-full min-h-[738px] bg-secondary '>
+        <div className='lg:flex lg:items-center lg:justify-center  w-full min-h-[738px] '>
+          <div className=' lg:w-[500px] md:w-[400px] w-[300px] h-[500px] pl-20 pt-20 '>
             <h1 className='text-black font-semibold italic text-[23px]'>Hello!<br /> I’m soda<br /> I Need To Be A  Software Developer</h1>
             <p className='text-grey-300 text-[18px]'><br />I’m a person who is going to develop and maintain software solutions, utilizing programming languages and engineering principles throughout the development process.</p>
             <div className='flex items-center  h-[50px] w-[400px] mt-[85px]  '>
@@ -111,70 +111,40 @@ export default function Home() {
         </div>
         {mySkillButton == "A" ? (<>
 
-          <div className='flex items-center justify-center  w-full h-[350px]   '>
-            <div className='flex  w-[500px] h-[120px] -mt-[150px] '>
-              <Image className=' '
-                src="/pyth icon.png"
-                width={120}
-                height={120}
+          <div className='flex '>
+            <div className='flex flex-col items-center justify-center  w-full min-h-[350px]   '>
+              <div className='flex  w-[500px] h-[120px]  '>
+                <Image className='ml-[40px] mr-[40px] '
+                  src="/pyth icon.png"
+                  width={120}
+                  height={120}
 
-                alt="Picture of the author"
-              />
-              <h1 className='text-secondary text-[22px] font-semibold ml-5'>PYTHON
-                <p className=' text-grey text-[16px] font-normal'>
-                  <br />Now, I am able to write code for Data Visualization, Data Preparation, and Machine Learning using Python, along with basic Python coding skills.
-                </p>
-              </h1>
+                  alt="Picture of the author"
+                />
+                <h1 className='text-secondary text-[22px] font-semibold ml-5'>PYTHON
+                  <p className=' text-grey text-[16px] font-normal'>
+                    <br />Now, I am able to write code for Data Visualization, Data Preparation, and Machine Learning using Python, along with basic Python coding skills.
+                  </p>
+                </h1>
+              </div>
 
-            </div>
+              <div className='flex w-[500px] h-[120px]   '>
+                <Image className=' '
+                  src="/HTML icon.png"
+                  width={240}
+                  height={120}
 
-            <div className='flex  w-[500px] h-[120px] -mt-[150px] ml-20 '>
-              <Image className='-ml-[80px] '
-                src="/HTML icon.png"
-                width={240}
-                height={120}
-
-                alt="Picture of the author"
-              />
-              <h1 className='text-secondary text-[22px] font-semibold ml-5'>HTML
-                <p className=' text-grey text-[16px] font-normal'>
-                  <br />I am able to write HTML code to create a basic website and decorate it with CSS to make it beautiful and usable.
-                </p>
-              </h1>
-            </div>
-          </div>
-          <div className='flex items-center justify-center  w-full h-[350px] -mt-10 '>
-            <div className='flex  w-[500px] h-[120px] -mt-[300px] '>
-              <Image className=' '
-                src="/pyth icon.png"
-                width={120}
-                height={120}
-
-                alt="Picture of the author"
-              />
-              <h1 className='text-secondary text-[22px] font-semibold ml-5'>PYTHON
-                <p className=' text-grey text-[16px] font-normal'>
-                  <br />Now, I am able to write code for Data Visualization, Data Preparation, and Machine Learning using Python, along with basic Python coding skills.
-                </p>
-              </h1>
-
-            </div>
-
-            <div className='flex  w-[500px] h-[120px] bg-red -mt-[300px] ml-20 '>
-              <Image className=' '
-                src="/pyth icon.png"
-                width={120}
-                height={120}
-
-                alt="Picture of the author"
-              />
-              <h1 className='text-secondary text-[22px] font-semibold ml-5'>PYTHON
-                <p className=' text-grey text-[16px] font-normal'>
-                  <br />Now, I am able to write code for Data Visualization, Data Preparation, and Machine Learning using Python, along with basic Python coding skills.
-                </p>
-              </h1>
+                  alt="Picture of the author"
+                />
+                <h1 className='text-secondary text-[22px] font-semibold ml-5'>HTML
+                  <p className=' text-grey text-[16px] font-normal'>
+                    <br />I am able to write HTML code to create a basic website and decorate it with CSS to make it beautiful and usable.
+                  </p>
+                </h1>
+              </div>
             </div>
           </div>
+
 
         </>) : (<></>)}
         {mySkillButton == "B" ? (<>
@@ -216,52 +186,31 @@ export default function Home() {
       </section>
 
       <footer className='flex items-center justify-center w-full h-[200px] bg-black '>
-        {/* <p className='text-secondary text-[26px] font-extralight bg-green-200'>Copy Right 2023 © By Soda</p> */}
-        {/* <div className='flex items-center  h-[50px] w-[400px] mt-[85px] bg-red-200 '>
-          <div className='w-[50px] h-[50px]  '>
-            <Image className=''
-              src="/footerig icon.png"
-              width={50}
-              height={50}
 
-              alt="Picture of the author"
-            />
-          </div>
-          <div className='w-[50px] h-[50px] '>
-            <Image className=' mb-[2px]'
-              src="/footerfb icon.png"
-              width={50}
-              height={50}
 
-              alt="Picture of the author"
-            />
-          </div>
-
-        </div> */}
-
-        <div className='flex flex-col items-center justify-center w-[500px] h-[150px] '> 
+        <div className='flex flex-col items-center justify-center w-[500px] h-[150px] '>
           <p className='text-secondary text-[24px] font-extralight '>Copy Right 2023 © By Soda</p>
-           <div className='flex items-center justify-center h-[50px] w-[400px] mt-[20px]   '>
-          <div className='w-[50px] h-[50px] mr-[20px] '>
-            <Image className=''
-              src="/footerig icon.png"
-              width={50}
-              height={50}
+          <div className='flex items-center justify-center h-[50px] w-[400px] mt-[20px]   '>
+            <div className='w-[50px] h-[50px] mr-[20px] '>
+              <Image className=''
+                src="/footerig icon.png"
+                width={50}
+                height={50}
 
-              alt="Picture of the author"
-            />
+                alt="Picture of the author"
+              />
+            </div>
+            <a href="https://www.facebook.com/profile.php?id=100011950513306&locale=th_TH" target="blank" className='w-[50px] h-[50px] '>
+              <Image className=' mb-[2px]'
+                src="/footerfb icon.png"
+                width={50}
+                height={50}
+
+                alt="Picture of the author"
+              />
+            </a>
+
           </div>
-          <a href="https://www.facebook.com/profile.php?id=100011950513306&locale=th_TH" target="blank" className='w-[50px] h-[50px] '>
-            <Image className=' mb-[2px]'
-              src="/footerfb icon.png"
-              width={50}
-              height={50}
-
-              alt="Picture of the author"
-            />
-          </a>
-
-        </div>
         </div>
       </footer>
 
